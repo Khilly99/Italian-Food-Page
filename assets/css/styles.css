@@ -360,7 +360,7 @@ button {
 }
 
 #subscribe-heading {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   font-weight: 700;
   font-size: 4rem;
   margin-top: 8rem;

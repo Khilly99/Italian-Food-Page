@@ -1,0 +1,698 @@
+body {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: #2e3034;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-family: "Reey", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  padding: 4.5rem 0 2rem;
+}
+
+.section-p {
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.section-heading {
+  font-size: 4.75rem;
+}
+
+button {
+  text-transform: uppercase;
+  border: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  transition: 0.4s;
+}
+
+/* ** Header Section ** */
+/* -------------------- */
+#header {
+  background: url("../img/headerBackground.png") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  padding: 2.5rem 0 15rem;
+  color: #fff;
+}
+
+#navbarContent a {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.175rem;
+  transition: 0.3s;
+}
+
+#navbarContent a:hover,
+.footer-link:hover {
+  color: #9dbc1c;
+}
+
+#header form {
+  position: relative;
+  width: 12rem;
+}
+
+#site-search {
+  border-radius: 3rem;
+  height: 3rem;
+  width: 12rem;
+  border: 0;
+  margin-left: 1.75rem;
+  padding: 0 2.75rem 0 1rem;
+}
+
+#site-search,
+#subscribe-input,
+#nav-bar-toggler,
+#nav-bar-toggler:focus {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+#search-btn {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0.75rem;
+  right: -0.5rem;
+  transition: 0.3s;
+  color: #2e3034;
+}
+
+#search-btn:hover,
+#nav-bar-toggler:hover {
+  color: #9dbc1c;
+  cursor: pointer;
+}
+
+#nav-bar-toggler {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#logo {
+  margin: 5rem 0 4rem;
+  width: 8.25rem;
+  height: 7.25rem;
+}
+
+#brand {
+  margin-bottom: 5rem;
+}
+
+.header-dish {
+  position: absolute;
+  right: 0;
+  bottom: -10rem;
+  height: auto;
+  overflow-x: hidden;
+}
+
+#header-dish {
+  position: relative;
+  left: 2.25rem;
+  width: 100%;
+}
+
+#header-em {
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3.5rem;
+}
+
+#read-more-btn,
+#more-info-btn {
+  background-color: #fff;
+  border-radius: 1.25rem;
+  padding: 0.5rem 2.25rem;
+  color: #2e3034;
+}
+
+#read-more-btn:hover,
+#more-info-btn:hover {
+  background-color: #9dbc1c;
+  color: #fff;
+}
+
+#header-p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  width: 27.7%;
+}
+/* -------------------- */
+
+/* ** Dishes Section ** */
+/* -------------------- */
+
+#dishes-heading {
+  margin-bottom: 3.5rem;
+}
+
+.dish-col {
+  text-align: center;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.dish-description {
+  text-align: left;
+  padding-left: 2.75rem;
+}
+
+.dish-description h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.dish-description p {
+  font-size: 1.1rem;
+}
+
+.dish-img {
+  width: 80%;
+}
+
+#show-more-btn,
+.offer-read-more {
+  margin-top: 3rem;
+  border-radius: 3rem;
+  padding: 0.75rem 3rem;
+  background-color: #2e3034;
+  color: #fff;
+}
+
+#show-more-btn:hover,
+.offer-read-more:hover,
+#subscribe-btn:hover,
+.social a:hover {
+  background-color: #9dbc1c;
+  color: #2e3034;
+}
+
+/* -------------------- */
+
+/* ** Info Section ** */
+/* ------------------ */
+
+#info {
+  background-color: #2e3034;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info-row {
+  margin: 5rem 5rem 3rem 5rem;
+}
+
+#info p {
+  text-align: left;
+  font-weight: 400;
+  margin: 0 1.2rem;
+}
+
+/* ------------------ */
+
+/* ** Offers Section ** */
+/* -------------------- */
+
+#discount50-img,
+#free1-img {
+  width: 100%;
+}
+
+#offer-description1 {
+  padding: 5rem 13rem 0 0;
+}
+
+#offer-description2 {
+  padding: 5rem 0 0 12rem;
+}
+
+#offers p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* -------------------- */
+
+/* ** Pizza Section ** */
+/* ------------------- */
+
+#pizza {
+  font-family: "Montserrat", sans-serif;
+  background: url("../img/headerBackground.png") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  padding-bottom: 40rem;
+}
+
+#pizza-heading {
+  font-size: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+#pizza p {
+  font-size: 1.5rem;
+}
+
+#pizza p::after {
+  content: "";
+  display: block;
+  border-bottom: solid 0.4rem;
+  width: 8rem;
+  position: absolute;
+  left: calc(50% - 4rem);
+}
+
+#pizza img {
+  position: absolute;
+}
+
+#pizza-oregano2 {
+  top: -9.5rem;
+  right: 1.5rem;
+}
+
+#pizza-oregano1 {
+  top: -14rem;
+  left: 10rem;
+}
+
+#pizza-img {
+  bottom: -10rem;
+  right: 15rem;
+}
+
+/* ------------------- */
+
+/* ** Some Section ** */
+/* ------------------ */
+
+#some-section {
+  padding: 8rem;
+}
+
+.some-section-col {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+#some-section h3 {
+  text-transform: capitalize;
+  font-family: "Reey", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+#some-section p {
+  text-align: left;
+  font-size: 1rem;
+}
+
+#some-section span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: block;
+  width: 52.5%;
+  margin: 12rem auto 3rem;
+}
+
+#some-section h5 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* ------------------ */
+
+/* ** Subscribe Section ** */
+/* ----------------------- */
+
+#subscribe {
+  background-color: #2e3034;
+  color: #fff;
+  position: relative;
+  padding-bottom: 14rem;
+}
+
+#subscribe-heading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-top: 8rem;
+}
+
+#subscribe img {
+  position: absolute;
+}
+
+#subscribe-oregano2 {
+  right: 2rem;
+  top: -3rem;
+}
+
+#subscribe p {
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 3rem auto;
+}
+
+#subscribe form {
+  width: 36rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+#subscribe-input {
+  width: 35rem;
+  height: 3.25rem;
+  font-size: 1.3rem;
+  border: 0;
+  border-radius: 3rem;
+  padding: 0 12rem 0 2rem;
+}
+
+#subscribe-btn {
+  position: absolute;
+  right: -0.1rem;
+  letter-spacing: 0.03rem;
+  border-radius: 3rem;
+  padding: 0.5rem 2rem;
+  background-color: #54524f;
+  color: #fff;
+}
+
+#subscribe-oregano1 {
+  bottom: -17.5rem;
+  left: 2rem;
+}
+
+/* ----------------------- */
+
+/* ** Footer Section ** */
+/* -------------------- */
+
+#footer {
+  font-family: "Montserrat", sans-serif;
+  margin: 20rem 0 16rem;
+}
+
+#footer h4 {
+  text-transform: capitalize;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+
+#footer p {
+  width: 75%;
+  color: #343434;
+  font-size: 1.1rem;
+  margin: 1.25rem 0;
+}
+
+.social a {
+  background-color: #343434;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.25rem;
+}
+
+#footer li {
+  padding: 0 0 0.6rem 0.05rem;
+}
+
+.footer-link {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #343434;
+}
+
+/* -------------------- */
+
+/* ** Media Query ** */
+/* ----------------- */
+
+@media (max-width: 1200px), (max-width: 1400px) {
+  #offers h2 {
+    font-size: 2.5rem;
+  }
+
+  #offer-description1 {
+    padding: 5rem 0 0;
+  }
+
+  #offer-description2 {
+    padding: 5rem 0 0;
+  }
+
+  #offers p,
+  .section-p {
+    font-size: 1.1rem;
+  }
+
+  #subscribe-oregano1 {
+    left: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  #pizza-oregano1 {
+    left: 4rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  #pizza {
+    padding-bottom: 30rem;
+  }
+
+  #pizza-oregano2,
+  #pizza-oregano1 {
+    display: none;
+  }
+
+  #pizza-img {
+    width: 50%;
+    bottom: -7rem;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .header-dish {
+    width: 70%;
+  }
+
+  #pizza {
+    padding-bottom: 2rem;
+  }
+
+  #pizza-img {
+    position: static !important;
+    margin-top: 2rem;
+  }
+
+  #some-section span {
+    width: 75%;
+    font-size: 1rem;
+  }
+
+  #subscribe-oregano1 {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-heading {
+    font-size: 3.75rem;
+  }
+
+  #header {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  #header-p {
+    width: 50%;
+    margin: 4rem auto;
+  }
+
+  #site-search {
+    margin-left: 0;
+  }
+
+  #search-btn {
+    right: 1.25rem;
+  }
+
+  #navbarContent a {
+    padding-bottom: 1.25rem;
+  }
+
+
+  .header-dish {
+    position: static;
+    width: 100%;
+  }
+
+  #header-dish {
+    position: static;
+    width: 75%;
+  }
+
+  #about {
+    margin-top: 3rem;
+  }
+
+  #info-col-2,
+  #free1-img {
+    margin-top: 2.25rem;
+  }
+
+  #offers {
+    text-align: center;
+  }
+
+  #offer-description1,
+  #offer-description2 {
+    padding: 0;
+  }
+
+  #discount50-img,
+  #free1-img {
+    width: calc(100% - 3rem);
+  }
+
+  #pizza-heading {
+    font-size: 2.75rem;
+  }
+
+  #pizza p {
+    font-size: 1.15rem;
+  }
+
+  #some-section span {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    line-height: 5rem;
+  }
+
+  #brand {
+    line-height: 7rem !important;
+  }
+  .smaller-heading-1 {
+    font-size: 2.75rem;
+  }
+
+  #offers h2 {
+    font-size: 2rem;
+    padding: 0 1rem 0 1.5rem;
+  }
+
+  #offers p,
+  .section-p {
+    font-size: 1rem;
+  }
+
+  #offers p {
+    padding: 0 1.5rem;
+  }
+
+  #pizza-heading {
+    line-height: 4rem;
+    font-size: 2rem;
+  }
+
+  #pizza p {
+    font-size: 0.875rem;
+  }
+
+  #subscribe-oregano2 {
+    display: none;
+  }
+
+  #subscribe p {
+    font-size: 1.15rem;
+    width: 75%;
+  }
+
+  #subscribe form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #subscribe-input {
+    width: 90%;
+    padding-right: 9.5rem !important;
+  }
+
+  #subscribe-btn {
+    font-size: 1rem;
+    height: 100%;
+    right: 0.75rem;
+  }
+
+  .info-row {
+    margin: 5rem 2rem;
+  }
+
+  #info p, #some-section p {
+    text-align: center !important;
+  }
+
+  #some-section {
+    padding: 4rem;
+  }
+
+}
+
+@media (max-width: 540px) {
+  #some-section h3 {
+    font-size: 2rem;
+  }
+}
+
+/* ----------------- */

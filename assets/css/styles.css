@@ -2,7 +2,7 @@
   font-family: "Reey";
   font-style: normal;
   font-weight:400;
-  src:local("Reey"), url("../fonts/Reey-Regular.otf") format("opentype");
+  src:local("Reey"), url("/assets/fonts/Reey-Regular.otf") format("opentype");
 }
 
 

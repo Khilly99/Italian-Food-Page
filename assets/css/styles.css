@@ -1,11 +1,3 @@
-@font-face{
-  font-family: "Reey";
-  font-style: normal;
-  font-weight:400;
-  src:local("Reey"), url("../fonts/Reey-Regular.otf") format("opentype");
-}
-
-
 body {
   position: relative;
   font-family: "Open Sans", sans-serif;

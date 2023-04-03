@@ -364,6 +364,7 @@ button {
   font-weight: 700;
   font-size: 4rem;
   margin-top: 8rem;
+  text-transform: capitalize;
 }
 
 #subscribe img {

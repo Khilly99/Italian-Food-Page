@@ -1,9 +1,4 @@
-@font-face{
-  font-family: reey;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Reey'), url("../fonts/Reey-Regular.ttf.woff") format('woff');
-}
+@import url('https://fonts.cdnfonts.com/css/reey');
 
 body {
   position: relative;
@@ -15,7 +10,7 @@ body {
 
 h1 {
   text-transform: capitalize;
-  font-family: "Reey", sans-serif !important;
+  font-family: "Reey", sans-serif;
 }
 
 h2 {
@@ -330,7 +325,7 @@ button {
 
 #some-section h3 {
   text-transform: capitalize;
-  font-family: "Reey", sans-serif !important;
+  font-family: "Reey", sans-serif;
   font-size: 2.25rem;
   margin-bottom: 2rem;
 }
